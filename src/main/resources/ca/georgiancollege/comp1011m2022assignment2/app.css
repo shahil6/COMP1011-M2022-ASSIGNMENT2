@@ -1,0 +1,10 @@
+.labels
+{
+    -fx-font-size: 45px;
+    -fx-font-family: "Blue";
+}
+
+.table-column
+{
+    -fx-alignment: CENTER;
+}

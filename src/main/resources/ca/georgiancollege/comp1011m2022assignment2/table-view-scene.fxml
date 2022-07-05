@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="357.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.comp1011m2022assignment2.TableViewSceneController">
+   <children>
+      <BorderPane prefHeight="364.0" prefWidth="574.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#OnGraphViewClicked" text="Graph view" textFill="#2200ff" BorderPane.alignment="BOTTOM_RIGHT" />
+         </bottom>
+         <right>
+            <ScrollBar orientation="VERTICAL" prefHeight="234.0" prefWidth="19.0" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <TableView fx:id="TableView" prefHeight="234.0" prefWidth="485.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="Code" prefWidth="110.0" text="Code" />
+                <TableColumn fx:id="Name" prefWidth="110.0" text="Name" />
+                  <TableColumn fx:id="Continent" prefWidth="89.0" text="Continent" />
+                  <TableColumn fx:id="Region" prefWidth="105.0" text="Region" />
+                  <TableColumn fx:id="Population" prefWidth="136.0" text="Population" />
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
